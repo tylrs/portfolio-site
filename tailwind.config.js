@@ -5,10 +5,10 @@ export default {
     extend: {
       colors: {
         primary: {
-          cream: "FDF0D5",
-          navy: "003049",
-          red: "C1121F",
-          maroon: "780000",
+          cream: "#FDF0D5",
+          navy: "#003049",
+          red: "#C1121F",
+          maroon: "#780000",
         },
       },
     },
