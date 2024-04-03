@@ -19,7 +19,7 @@ const Homepage = () => {
             <button className="row-start-2 col-start-3">Projects</button>
             <div className="row-start-3 border-b-2 border-t-2 border-r-2"></div>
             <div className="row-start-3 col-start-2 flex justify-center items-center p-6 border-t-2 border-b-2 border-r-2 border-primary-cream">
-                <button className="bg-primary-maroon p-8 rounded-xl">Resumé</button>
+                <button className="bg-[#4F4789] text-primary-cream p-8 rounded-xl">Resumé</button>
             </div>
             <div className="row-start-3 col-start-3 border-b-2 border-t-2"></div>
             <div className="row-start-4 col-start-1 border-r-2 [border-image:linear-gradient(to_bottom,#FDF0D5_30%,transparent_30%)_0_100%_10_0]"></div>
