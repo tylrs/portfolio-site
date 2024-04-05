@@ -1,6 +1,7 @@
 import GitHubIcon from "../assets/icons/githubIcon.svg?react"
 import LinkedInIcon from "../assets/icons/linkedinIcon.svg?react"
 import MediumIcon from "../assets/icons/mediumIcon.svg?react"
+import { Link } from "react-router-dom"
 
 const Homepage = () => {
     return <div className="grid grid-cols-12 bg-primary-navy h-screen py-20 px-32">
@@ -25,7 +26,7 @@ const Homepage = () => {
         <div className="grid grid-rows-5 grid-cols-3 col-start-6 col-span-7 text-primary-cream text-2xl">
             <button className="row-start-2 border-r-2 border-primary-cream hover:text-primary-red">About Me</button>
             <div className="row-start-2 col-start-2 border-2 [border-image:linear-gradient(to_top,#FDF0D5_60%,transparent_50%)_0_100%_10_0]"></div>
-            <button className="row-start-2 col-start-3 hover:text-primary-red">Projects</button>
+            <Link to="/projects" className="flex justify-center align-center row-start-2 col-start-3 hover:text-primary-red">Projects</Link>
             <div className="row-start-3 border-b-2 border-t-2 border-r-2 border-primary-cream"></div>
             <div className="row-start-3 col-start-2 flex justify-center items-center p-6 border-t-2 border-b-2 border-r-2 border-primary-cream">
                 <button className="bg-[#4F4789] text-primary-cream p-8 rounded-xl hover:text-primary-red">Resumé</button>
